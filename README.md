@@ -1,3 +1,3 @@
 # count-comp
 
-<img src="" width="50%" alt="count-comp-demo">
+<img src="https://github.com/cooljasonmelton/count-comp/blob/main/count-demo.gif?raw=true" width="50%" alt="count-comp-demo">
