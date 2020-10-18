@@ -1,0 +1,22 @@
+{
+    "counts": [
+        {
+            "id": "001",
+            "label": "Ice Cream Flavors",
+            "number": "1000",
+            "duration": "3"
+        },
+        {
+            "id": "002",
+            "label": "Customers Served",
+            "number": "90000",
+            "duration": "3"
+        },
+        {
+            "id": "003",
+            "label": "Complaints",
+            "number": "0",
+            "duration": "3"
+        }
+    ]
+}
