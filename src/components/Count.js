@@ -5,10 +5,12 @@ import './Count.css';
 
 const Count = props => {
   // label of counter
-  // number to increment up to
-  // duration of counter in seconds
+  // number to increment to
+  // duration of count in seconds
   const {label, number, duration } = props.data
-  const [count, setCount] = useState(0)
+
+  // number displayed by component
+  const [count, setCount] = useState("0")
 
   useEffect(() => {
     let start = 0;
@@ -20,8 +22,6 @@ const Count = props => {
     // find duration per increment
     let totalMilSecDur = parseInt(duration);
     let incrementTime = (totalMilSecDur / end) * 1000;
-
-    console.log(end)
 
     // timer increments start counter 
     // then updates count
@@ -37,7 +37,9 @@ const Count = props => {
 
   return (
     <div className="Count">
-      <h3><i>{label}: {count}</i></h3>
+      <h3>
+        <i>{label}: {count}</i>
+      </h3>
     </div>
   );
 }
