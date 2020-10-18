@@ -1,0 +1,13 @@
+.Count {
+    padding: 2rem;
+    margin: 1rem;
+
+    border-radius: 2em;
+    background-color: #FAF0CA;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #0D3B66;
+}
